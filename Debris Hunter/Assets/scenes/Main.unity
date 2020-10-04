@@ -2001,7 +2001,7 @@ MonoBehaviour:
   SAT1: {fileID: 7230427843567515304, guid: d7dea16e52caf594ea1030835c642bbb, type: 3}
   SAT2: {fileID: 657079282821939799, guid: d85a420806844fe4ca57edf939145aac, type: 3}
   SAT3: {fileID: 7420021618449900527, guid: 61226e96189f3664fa228cd4861e101c, type: 3}
-  numberOfPlatforms: 500
+  numberOfPlatforms: 600
   levelWidth: 3
   minY: 1
   maxY: 3
@@ -2651,17 +2651,17 @@ PrefabInstance:
     - target: {fileID: 704624105721802549, guid: 31be131fa8689634ea5d7d0287fa000c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.56
+      value: 19.402
       objectReference: {fileID: 0}
     - target: {fileID: 704624105721802549, guid: 31be131fa8689634ea5d7d0287fa000c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.64
+      value: -7.354
       objectReference: {fileID: 0}
     - target: {fileID: 704624105721802549, guid: 31be131fa8689634ea5d7d0287fa000c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.77246094
+      value: -0.89862
       objectReference: {fileID: 0}
     - target: {fileID: 704624105721802549, guid: 31be131fa8689634ea5d7d0287fa000c,
         type: 3}
@@ -2702,6 +2702,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 704624105721802549, guid: 31be131fa8689634ea5d7d0287fa000c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.010577
+      objectReference: {fileID: 0}
+    - target: {fileID: 704624105721802549, guid: 31be131fa8689634ea5d7d0287fa000c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47538403
+      objectReference: {fileID: 0}
+    - target: {fileID: 704624105721802549, guid: 31be131fa8689634ea5d7d0287fa000c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6173819
       objectReference: {fileID: 0}
     - target: {fileID: 1477212752159700699, guid: 31be131fa8689634ea5d7d0287fa000c,
         type: 3}

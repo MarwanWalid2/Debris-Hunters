@@ -25,7 +25,7 @@ public class GameControlScript : MonoBehaviour {
 		isSkinSold = PlayerPrefs.GetInt ("IsSkinSold");
 		isSkin2Sold = PlayerPrefs.GetInt ("IsSkin2Sold");
 		isSkin3Sold = PlayerPrefs.GetInt ("IsSkin3Sold");
-		isSkin3Sold = PlayerPrefs.GetInt ("IsSkin4Sold");
+		isSkin4Sold = PlayerPrefs.GetInt ("IsSkin4Sold");
 
 
 		if (isSkin4Sold == 1)
