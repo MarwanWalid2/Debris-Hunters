@@ -34,5 +34,6 @@ public void Pause()
      public void Close()
 	{
 		canvas.gameObject.SetActive(false);
+        Destroy (gameObject);
 	}
 }
