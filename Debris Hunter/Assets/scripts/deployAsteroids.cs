@@ -20,7 +20,7 @@ public GameObject asteroidPrefab;
          timer += Time.deltaTime;
          
          if (timer > nextTime) {
-             Vector3 pos = new Vector3(1, Random.value, distFromCamera);
+             Vector3 pos = new Vector3(0, Random.value, distFromCamera);
              pos = Camera.main.ViewportToWorldPoint(pos);
  
              Instantiate(asteroidPrefab, pos, Quaternion.identity);
