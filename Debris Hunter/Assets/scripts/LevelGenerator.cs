@@ -59,12 +59,8 @@ public class LevelGenerator : MonoBehaviour {
 			if (i == 10 || i == 20|| i == 50 || i == 75|| i == 100 || i == 150|| i == 200 || i == 250|| i == 300 || i == 350|| i == 450 || i == 600|| i == 650 || i == 700|| i == 750 | i == 800|| i == 850 || i == 900|| i == 950)
 			{
 			spawnPosition.y += Random.Range(minY, maxY);
-			spawnPosition.x = Random.Range(-levelWidth , levelWidth);
-			Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
-			spawnPosition.y += Random.Range(minY, maxY);
 			spawnPosition.x = Random.Range(-levelWidth, levelWidth);
 			Instantiate(checkPrefab, spawnPosition, Quaternion.identity);
-			
 			}  
 
 			if (i == 150)
