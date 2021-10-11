@@ -1,39 +1,44 @@
-# Jumangi 3: Space Exploration
+# Debris-Hunters
 The game will work best on 1366 X 768 resolution
 
 
 # First release of the game
 https://github.com/MarwanWalid2/Debris-Hunters/releases/download/V1.0/debris.hunter.zip
 
-# Summry
-Utilizing Unity’s 2D game engine, we built a fun and educational video game to teach players space exploration and its challenges. Players explore space by jumping on platforms and trying their best not to fall. As they advance, they reach farther celestial destinations, starting from the ISS to the Moon to the rest of the solar system and beyond. At each celestial object the player visits, info on the object and challenges astronauts might face during exploration (i.e., lack of navigational aids and delayed communications) will be displayed. Our project is important as it can be enjoyed by all age groups, but it’s essential for educating generations about space travel and its challenges.
+# Summary
+Using Unity’s 2D game engine we created a game where players jump on platforms and try to collect debris and avoid satellites in order to generate in-game currency. Players will jump from platform to platform and continue to rise and will lose if they fall. We also included spots (Debris processors) to save your collected currency thus informing players of the profit that can be generated through collecting debris. Players will be rewarded a predetermined amount of in-game currency depending on the type of debris they collect and how much debris was collected. We will also use factual data to educate players on space debris information and different satellites in space.
 
-# Detailed Project Description
-Inspired by our most beloved childhood game, Icy Tower, we developed an exciting 2D plat-former game. As players jump from platform to platform, they reach higher elevations and are able to view far-fetched celestial bodied, where they can explore these objects, learn about their origins, and understand the potential hazards and challenges awaiting our future astronauts during space travel.  
+# How We Addressed This Challenge
+For our project, we developed an exciting and fun 2D platformer game that can inform people about the hazards of space debris. In short, players collect debris while jumping on platforms and try their best not to fall. This collected debris gives players in-game currency to buy cosmetics and upgrades.
+Our project is important because it helps inform all age groups about the dangers of orbital debris and asks players to think of creative ideas to help solve this problem. It also introduces a new concept of profiting by collecting debris (this might be the motivation needed to find a solution). 
+Because of its simple design, our game can be enjoyed by both children and adults. And our info button will allow people to educate themselves upon the orbital debris problem and satellites. 
 
-Players are also able to collect space debris as they rise through the platforms, which is turned into in-game currency depending on how much debris they collected. This in-game currency can be used to buy upgrades, cosmetics, or mystery destination cards—cards that teleport the user to mystery celestial bodies like asteroids, Trans Neptunian Objects, and even further out in the Oort cloud and exoplanets. 
+# How We Developed This Project
+After looking through all the challenges, we were inspired by the Team Power of Pop (Winners of NASA space apps Osaka, Japan 2019). We instantly fell in love with their games simplicity, 2D design and its use of Nasa’s space data. So we decided to brainstorm our unique idea for a 2D game, and that is how we came up with Debris Hunters.
+Orbital debris is uncommon knowledge for most people and we planned to create something that was both fun and informative. To create this game, we used Unity’s game engine (which uses the coding language C#) and we also used Adobe illustrator to make most of the in-game designs by ourselves (background, characters, platforms, etc.).
+We faced multiple problems trying to implement the circle equation in our game and other problems when randomly generating debris, but the internet and local NASA mentors helped us find solutions.     
+One of our accomplishments was our ability to create a shop for players to buy cosmetics and upgrades. However, as a team, we all agree that are greatest accomplishment was our ability to work together using only online chat, video calls and sending data through emails. We were all very cooperative and positive throughout the making of our game. 
 
-Since space exploration is quite an uncommon concept for most people, we hoped to educate people about it through an immersive, fun, and educational video game. To create the game, we used Unity’s game engine for its availability and accessibility, with the main coding language being C#. Additionally, Adobe illustrator was used to create of the in-game designs (background, characters, platforms, etc.).
+# How We Used Space Agency Data in This Project
+We used space agency data in an attempt to give orbiting satellites in our game accurate locations and names. Using Unity Game engine, we were able to accurately name some of these Satellites. This influenced us to plan and hopefully include data regarding these satellites if hit by the player.
+Also Included in our game is an info section were players can learn more about debris and their harmful effect on space exploration. This info was collected through multiples websites (including NASA’s website) and can help inform people of the serious debris problem. This section also encourages players to think of creative ways to solve this problem.
 
-# Space Agency Data
-NASA’s organized resources greatly helped us in the process of data collection. Our data collection has been all written based on factual data released by NASA. The data provided by the Space Agency allowed us to give orbiting satellites in our game accurate locations and names. Using Unity Game engine, we were able to accurately name some of these Satellites. This influenced us to plan and hopefully include data regarding these satellites if hit by the player. Furthermore, as the players reach further destination in the space, they will find stellar phenomenon explained sufficiently appear on the screen; for example, as players reach level one, they will find the moon with a click button to show information about it: its history, hazards, and dangers faced people tried to land on it. 
+# Project Demo
+Presentation :
 
-Moreover, as the levels increase and the players reach higher ranks, the player will see info about more advanced celestial beings and the challenges astronauts might face during exploration of Space (i.e., lack of navigational aids and delayed communications). Also, included in our game is an info section were players can learn more about space debris and their harmful effect on space exploration. This info was also collected through multiples websites (including NASA’s website) and can help inform people of the serious debris problem. Because the players will comprehend the space debris problem as demonstrated at NASA Space Agency’s website, this section also encourages players to think of creative ways to solve this problem.
+https://www.slideshare.net/secret/3dNOadBRniYNRy
 
-# References
-https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/
+# Video:
 
-https://www.nasa.gov/hrp/5-hazards-of-human-spaceflight
+https://www.youtube.com/watch?v=E_iLsYu20vU&ab_channel=MohamedFekry
+
+# Project Code
+https://github.com/MarwanWalid2/Debris-Hunters
+
+# Data & Resources
+Satellite Names and Locations Database:
 
 https://www.nasa.gov/missions
-
-https://www.esa.int/Safety_Security/Space_Debris/Space_debris_by_the_numbers
-
-https://www.nasa.gov/mission_pages/station/news/orbital_debris.html
-
-https://solarsystem.nasa.gov/solar-system/kuiper-belt/overview/
-
-https://www.ucsusa.org/resources/satellite-database
 
 https://github.com/WorldWindLabs/SpaceBirds
 
@@ -41,4 +46,12 @@ https://www.ucsusa.org/resources/satellite-database
 
 https://www.n2yo.com/
 
-Vlachopoulos, D., & Makri, A. (2017). The effect of games and simulations on higher education: a systematic literature review. International Journal of Educational Technology in Higher Education, 14(1). doi:10.1186/s41239-017-0062-1
+# Debris Info:
+
+https://www.esa.int/Safety_Security/Space_Debris/Space_debris_by_the_numbers
+
+https://www.nasa.gov/mission_pages/station/news/orbital_debris.html
+
+https://en.wikipedia.org/wiki/Space_debris
+
+https://www.ucsusa.org/resources/satellite-database
